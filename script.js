@@ -15,7 +15,7 @@ btnVerificar.addEventListener('click', function() {
         divResultado.innerText = "Por favor, preencha todos os campos corretamente.";
         divResultado.style.display = "block";
         return; // Para a execução aqui se houver erro
-    }
+    }"comentario esquecido"
 
     // Regra de negócio: Altura >= 1.70 E idade >= 18
     if (altura >= 1.70 && idade >= 18) {
